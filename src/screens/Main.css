@@ -420,3 +420,124 @@ input[type="number"], textarea {
           transform:rotate(360deg)
         }
       }
+
+
+@media screen and (max-width:600px) {
+    .large{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .sticky{
+       /* margin-left: 10px; */
+        width:90%;
+        position: relative;
+        height:96%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation:fadeIn 6s ;
+        animation-delay:3s;
+    }
+    .static{
+        align-self: center;
+        width:100%;
+        height: 100%;
+        padding: 10px;   
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid rgb(112, 112, 112) ;
+    }
+    .Email_Box{
+        text-align: center;
+        line-height: 1.3;
+        margin-top:20px;
+        width: 90%;
+        color:white;
+    }
+    
+.PLace_Tellers{
+    margin-top:220px;
+    margin-bottom:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    color:white;
+    border:1px solid gray;
+    width:140px;
+    height:30px;
+    padding:3px;
+    border-radius:20px;
+}
+.scrollable{
+        display: flex;
+    flex-direction: column;
+    width: 90%;
+    height:100%;
+}
+
+.Name_Box{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 88%;
+    color:white;
+    display: flex;
+    justify-content: space-between ;
+}
+.Name{
+    font-size:26px;
+    font-weight: bold;
+}
+.links{
+    margin-top:20px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around
+}
+.Icon{
+    padding:10px;
+    border: 2px solid gray;
+    border-radius: 220px;
+}
+.imgBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    border-radius: 30px;
+    width:66%;
+    object-fit: cover;
+    height: auto;
+}
+.copyright{
+    margin-top:20px;
+    color:gray;
+}
+.Hireme_Button:hover{
+    color:#28e98c;
+    border:3px solid #28e98c;
+}
+.Icon:hover{
+    color:#28e98c;
+    border:3px solid #28e98c;
+}
+.Email_Box{
+    text-align: center;
+    line-height: 1.3;
+    margin-top:20px;
+    width: 90%;
+    color:white;
+}   
+.Post{
+    font-size:14px;
+}
+}
+
+    
