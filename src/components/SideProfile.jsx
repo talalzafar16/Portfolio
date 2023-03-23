@@ -9,7 +9,9 @@ import profPic from "../assets/profile.png";
 import "../screens/Main.css";
 
 const SideProfile = () => {
+
   return (
+
     <div>
       <div className="sticky">
         <div className="static">
@@ -59,7 +61,7 @@ const SideProfile = () => {
               />
             </a>
           </div>
-          <div>
+          <div style={{width:"80%"}}>
             <Button
               className="Hireme_Button"
               startIcon={<EmailIcon />}
@@ -68,7 +70,7 @@ const SideProfile = () => {
                 fontSize: 18,
                 backgroundColor: "#28e98c",
                 marginTop: 2,
-                width: 300,
+                width: "100%",
                 height: 49,
                 color: "black",
                 borderRadius: 30,

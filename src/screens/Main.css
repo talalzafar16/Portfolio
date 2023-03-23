@@ -426,16 +426,15 @@ input[type="number"], textarea {
     .large{
         width:100%;
         display: flex;
-        justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height:100%;
     }
     .sticky{
-       /* margin-left: 10px; */
-        width:90%;
-        position: relative;
-        height:96%;
+        margin-top: 10px;
+        width:87vw;
+        position:static;
+        height:98vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -443,7 +442,6 @@ input[type="number"], textarea {
         animation-delay:3s;
     }
     .static{
-        align-self: center;
         width:100%;
         height: 100%;
         padding: 10px;   
@@ -455,15 +453,13 @@ input[type="number"], textarea {
     }
     .Email_Box{
         text-align: center;
-        line-height: 1.3;
-        margin-top:20px;
-        width: 90%;
+        margin-top:4px;
+        width: 100%;
         color:white;
     }
     
 .PLace_Tellers{
-    margin-top:220px;
-    margin-bottom:60px;
+    margin-top: -1px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -476,16 +472,14 @@ input[type="number"], textarea {
     border-radius:20px;
 }
 .scrollable{
-        display: flex;
-    flex-direction: column;
-    width: 90%;
-    height:100%;
+    display: flex;
+    width: 87vw;
 }
 
 .Name_Box{
     margin-top: 6px;
     margin-bottom: 10px;
-    width: 88%;
+    width: 80%;
     color:white;
     display: flex;
     justify-content: space-between ;
@@ -495,30 +489,34 @@ input[type="number"], textarea {
     font-weight: bold;
 }
 .links{
-    margin-top:20px;
+    margin-top:10px;
     display: flex;
     width: 80%;
     justify-content: space-around
 }
 .Icon{
-    padding:10px;
+    padding:4px;
+    color:gray;
     border: 2px solid gray;
     border-radius: 220px;
 }
 .imgBox{
-    width: 100%;
+    width: 80%;
+    height: 40%;
     display: flex;
     justify-content: center;
 }
 .pic{
     border-radius: 30px;
-    width:66%;
-    object-fit: cover;
-    height: auto;
+    width:100%;
+    object-fit: cover ;
 }
 .copyright{
-    margin-top:20px;
+    margin-top:10px;
     color:gray;
+}
+.copyright h4{
+    font-size: 14px;
 }
 .Hireme_Button:hover{
     color:#28e98c;
@@ -528,6 +526,9 @@ input[type="number"], textarea {
     color:#28e98c;
     border:3px solid #28e98c;
 }
+.Email_Box h2{
+    font-size: 20px;
+}
 .Email_Box{
     text-align: center;
     line-height: 1.3;
@@ -536,8 +537,91 @@ input[type="number"], textarea {
     color:white;
 }   
 .Post{
-    font-size:14px;
+    font-size:13px;
 }
+.text{
+    text-align: center;
+    color:white;
+    font-size: 48px;
+    }
+.text4{
+    color:white;
+    line-height: 2;
+    font-size: 28px;
+    }
+.text2{
+    color:white;
+    font-size: 42px;
+    }
+.text6{
+    margin-top: 30px;
+    color:white;
+    font-size: 16px;
+    }
+.text3{
+    margin-bottom: 20px;
+    color:white;
+    font-size: 42px;
+    }
+    .sub_text{
+        margin-top:14px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:28px;
+        letter-spacing: 2px;
+        color:white;
+        text-align: center;
+    }
+    .Complement_text{
+        text-align: center;
+        margin-top:60px;
+        color:gray;
+        font-size: 18px;
+    }
+    .Complement_text2{
+        letter-spacing: 1px;
+        color:gray;
+        font-size: 18px;
+    }
+    .rotate_box_box{
+        display: flex;
+        width:100%;
+        justify-content: center;
+    }
+    .rotate_box{
+        margin-top:80px;
+        margin-bottom:30px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:170px;
+        height: 170px;
+        border-radius:300px;
+        border:1px solid gray;
+    }
+    
+    .Main_Exp_Box{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        gap:80px;
+        margin-bottom: 80px;
+    }
+    .Child_Exp_Box h1{
+        color:#28e98c;
+        line-height: 40px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size:48px;
+    }
+    .Child_Exp_Box p{
+        margin-left: 10px;
+        color:gray; 
+        font-weight: bold;
+        line-height: 26px;
+        font-size:12px;
+    }
 }
 
     
