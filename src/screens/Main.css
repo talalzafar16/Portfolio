@@ -434,7 +434,7 @@ input[type="number"], textarea {
         margin-top: 10px;
         width:87vw;
         position:static;
-        height:98vh;
+        height:100%;
         display: flex;
         justify-content: center;
         align-items: center;
