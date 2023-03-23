@@ -431,10 +431,9 @@ input[type="number"], textarea {
         height:100%;
     }
     .sticky{
-        margin-top: 10px;
         width:87vw;
         position:static;
-        height:100%;
+        height:100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -442,8 +441,7 @@ input[type="number"], textarea {
         animation-delay:3s;
     }
     .static{
-        width:100%;
-        height: 100%;
+        width:100%;        
         padding: 10px;   
         border-radius: 40px;
         display: flex;
@@ -458,8 +456,22 @@ input[type="number"], textarea {
         color:white;
     }
     
-.PLace_Tellers{
+.PLace_Tellers1{
     margin-top: -1px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    color:white;
+    border:1px solid gray;
+    width:140px;
+    height:30px;
+    padding:3px;
+    border-radius:20px;
+}
+.PLace_Tellers{
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -547,21 +559,23 @@ input[type="number"], textarea {
 .text4{
     color:white;
     line-height: 2;
-    font-size: 28px;
+    font-size: 22px;
     }
 .text2{
+    text-align: center;
     color:white;
-    font-size: 42px;
+    font-size: 38px;
     }
 .text6{
     margin-top: 30px;
     color:white;
-    font-size: 16px;
+    font-size: 14px;
     }
 .text3{
     margin-bottom: 20px;
     color:white;
-    font-size: 42px;
+    text-align: center;
+    font-size: 38px;
     }
     .sub_text{
         margin-top:14px;
@@ -580,7 +594,7 @@ input[type="number"], textarea {
     .Complement_text2{
         letter-spacing: 1px;
         color:gray;
-        font-size: 18px;
+        font-size: 14px;
     }
     .rotate_box_box{
         display: flex;
@@ -621,6 +635,49 @@ input[type="number"], textarea {
         font-weight: bold;
         line-height: 26px;
         font-size:12px;
+    }
+    .serv_Icon{
+        margin-right: 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill{
+        width:140px;
+        height:260px;
+        display: flex;
+        flex-direction: column;
+    }
+    .skill_text{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .skill_box:hover{
+        border:3px solid #28e98c;
+    }
+    .skill_box{
+        margin-bottom:20px ;
+        border:2px solid gray;
+        border-radius: 200px;
+        width:140px;
+        height:170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill_section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:40px;
+    }
+    .logo{
+        width:90px;
+    }
+    .logoNative{
+        width: 240px;
     }
 }
 

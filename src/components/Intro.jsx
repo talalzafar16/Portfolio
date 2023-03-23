@@ -10,7 +10,6 @@ import { Box } from "@mui/material";
 export default function Intro() {
   
   let [width,setWidth]=useState(window.innerWidth);
-  console.log(width)
   return(<div>
 
     {
@@ -112,7 +111,7 @@ export default function Intro() {
       <ScrollAnimation
         animateIn={"fadeInUp"}
         animateOnce={false}
-        className={"sec-1 PLace_Tellers"}
+        className={"sec-1 PLace_Tellers1"}
         animatePerScroll={false}
       >
           <HomeIcon sx={{ color: "white", marginRight: 1, fontSize: 20 }} />
