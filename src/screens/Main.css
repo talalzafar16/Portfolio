@@ -502,7 +502,7 @@ input[type="number"], textarea {
 }
 .imgBox{
     width: 80%;
-    height: 40%;
+    height: 40vh;
     display: flex;
     justify-content: center;
 }
