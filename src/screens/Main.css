@@ -422,7 +422,9 @@ input[type="number"], textarea {
       }
 
 
-@media screen and (max-width:600px) {
+/* ----------------------Medium and Large Mobile------------------------- */
+
+@media screen and (max-width:600px) and (min-width:375px) {
     .large{
         width:100%;
         display: flex;
@@ -577,6 +579,11 @@ input[type="number"], textarea {
     text-align: center;
     font-size: 38px;
     }
+    .text9{
+        color: white;
+        text-align: center;
+        font-size:22px;
+    }
     .sub_text{
         margin-top:14px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -644,8 +651,8 @@ input[type="number"], textarea {
         align-items: center;
     }
     .skill{
-        width:140px;
-        height:260px;
+        width:130px;
+        height:240px;
         display: flex;
         flex-direction: column;
     }
@@ -661,8 +668,8 @@ input[type="number"], textarea {
         margin-bottom:20px ;
         border:2px solid gray;
         border-radius: 200px;
-        width:140px;
-        height:170px;
+        width:130px;
+        height:160px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -672,6 +679,7 @@ input[type="number"], textarea {
         flex-direction: row;
         flex-wrap: wrap;
         gap:40px;
+        justify-content: space-around;
     }
     .logo{
         width:90px;
@@ -679,6 +687,329 @@ input[type="number"], textarea {
     .logoNative{
         width: 240px;
     }
+    .contact_box{
+        margin-top: 40px;
+        width: 100%;
+        display:flex;
+        gap:60px;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .inputField{
+        outline: none;
+        color: white;
+        height:40px;
+        width:100%;
+        padding: 2px;
+        font-size: 16px;
+        border-bottom:2px solid white;
+    }
+    .helper_text{
+        font-size: 18px;
+        color:white;
+    }
+    .box{   
+        display:flex;
+        width: 90%;
+        flex-direction:column-reverse
+    }
 }
 
+
+/* ----------------Small Mobiles------------ */
+
+@media screen and (max-width:374px) {
+    .large{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:100%;
+    }
+    .sticky{
+        width:87vw;
+        position:static;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation:fadeIn 6s ;
+        animation-delay:3s;
+    }
+    .static{
+        width:100%;        
+        padding: 10px;   
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid rgb(112, 112, 112) ;
+    }
+    .Email_Box{
+        text-align: center;
+        margin-top:4px;
+        width: 100%;
+        color:white;
+    }
+    
+.PLace_Tellers1{
+    margin-top: -1px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    color:white;
+    border:1px solid gray;
+    width:140px;
+    height:30px;
+    padding:3px;
+    border-radius:20px;
+}
+.PLace_Tellers{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    color:white;
+    border:1px solid gray;
+    width:140px;
+    height:30px;
+    padding:3px;
+    border-radius:20px;
+}
+.scrollable{
+    display: flex;
+    width: 87vw;
+}
+
+.Name_Box{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    width: 80%;
+    color:white;
+    display: flex;
+    justify-content: space-between ;
+}
+.Name{
+    font-size:26px;
+    font-weight: bold;
+}
+.links{
+    margin-top:10px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around
+}
+.Icon{
+    padding:4px;
+    color:gray;
+    border: 2px solid gray;
+    border-radius: 220px;
+}
+.imgBox{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    border-radius: 30px;
+    width:100%;
+    object-fit: cover ;
+}
+.copyright{
+    margin-top:10px;
+    color:gray;
+}
+.copyright h4{
+    font-size: 14px;
+}
+.Hireme_Button:hover{
+    color:#28e98c;
+    border:3px solid #28e98c;
+}
+.Icon:hover{
+    color:#28e98c;
+    border:3px solid #28e98c;
+}
+.Email_Box h2{
+    font-size: 20px;
+}
+.Email_Box{
+    text-align: center;
+    line-height: 1.3;
+    margin-top:20px;
+    width: 90%;
+    color:white;
+}   
+.Post{
+    font-size:13px;
+}
+.text{
+    text-align: center;
+    color:white;
+    font-size: 48px;
+    }
+.text4{
+    color:white;
+    line-height: 2;
+    font-size: 20px;
+    }
+.text2{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    }
+.text6{
+    margin-top: 30px;
+    color:white;
+    font-size: 13px;
+    }
+.text3{
+    margin-bottom: 20px;
+    color:white;
+    text-align: center;
+    font-size: 38px;
+    }
+    .text9{
+        color: white;
+        text-align: center;
+        font-size:22px;
+    }
+    .sub_text{
+        margin-top:14px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:24px;
+        letter-spacing: 2px;
+        color:white;
+        text-align: center;
+    }
+    .Complement_text{
+        text-align: center;
+        margin-top:60px;
+        color:gray;
+        font-size: 16px;
+    }
+    .Complement_text2{
+        letter-spacing: 1px;
+        color:gray;
+        font-size: 13px;
+    }
+    .rotate_box_box{
+        display: flex;
+        width:100%;
+        justify-content: center;
+    }
+    .rotate_box{
+        margin-top:80px;
+        margin-bottom:30px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:170px;
+        height: 170px;
+        border-radius:300px;
+        border:1px solid gray;
+    }
+    
+    .Main_Exp_Box{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        gap:80px;
+        margin-bottom: 80px;
+    }
+    .Child_Exp_Box h1{
+        color:#28e98c;
+        line-height: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size:44px;
+    }
+    .Child_Exp_Box p{
+        margin-left: 10px;
+        color:gray; 
+        font-weight: bold;
+        line-height: 20px;
+        font-size:12px;
+    }
+    .serv_Icon{
+        margin-right: 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill{
+        width:110px;
+        height:240px;
+        display: flex;
+        flex-direction: column;
+    }
+    .skill_text{
+        text-align: center;
+        color: white;
+        font-size: 19px;
+    }
+    .skill_box:hover{
+        border:3px solid #28e98c;
+    }
+    .skill_box{
+        margin-bottom:10px ;
+        border:2px solid gray;
+        border-radius: 200px;
+        width:110px;
+        height:140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill_section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:30px;
+        justify-content: space-around;
+    }
+    .logo{
+        width:70px;
+    }
+    .logoNative{
+        width: 240px;
+    }
+    .contact_box{
+        margin-top: 40px;
+        width: 100%;
+        display:flex;
+        gap:60px;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .inputField{
+        outline: none;
+        color: white;
+        height:40px;
+        width:100%;
+        padding: 2px;
+        font-size: 16px;
+        border-bottom:2px solid white;
+    }
+    .helper_text{
+        font-size: 18px;
+        color:white;
+    }
+    .box{   
+        display:flex;
+        width: 90%;
+        flex-direction:column-reverse
+    }
+}
     

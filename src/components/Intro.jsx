@@ -10,6 +10,7 @@ import { Box } from "@mui/material";
 export default function Intro() {
   
   let [width,setWidth]=useState(window.innerWidth);
+
   return(<div>
 
     {
